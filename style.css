@@ -20,7 +20,13 @@ main {
   height: 100%;
   width: 100%;
 }
+input[type=text] {
+	width: 20%;
+	  font-size: 18px;
 
+	  font-family: 'Roboto','Helvetica Neue','Helvetica',sans-serif;
+
+}
 main section {
   margin-bottom: 1rem;
 }
@@ -33,6 +39,32 @@ ul {
 a {
   text-decoration: none;
   font-weight: 300;
+}
+
+.one {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: 800;
+}
+.two {
+	background-color: #DA1917;
+	color: #000000;
+	font-weight: 800;
+}
+.three {
+	background-color: #E6E42B;
+	color: #000000;
+	font-weight: 800;
+}
+.four {
+	background-color: #30B22A;
+	color: #000000;
+	font-weight: 800;
+}
+.five {
+	background-color: #1E87FF;
+	color: #000000;
+	font-weight: 800;
 }
 
 #pink .num {
